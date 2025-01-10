@@ -1,0 +1,17 @@
+{
+  "name": "solana-whale-tracker",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "solsearch": "./src/solsearch.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
